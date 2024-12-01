@@ -1,0 +1,153 @@
+/* Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('pattern.png');
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.8em;
+    color: #ff6f61;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 15px;
+  }
+  
+  h1 span {
+    color: #e53935;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  .subtext {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    margin-bottom: 40px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Tombol */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .fancy-button {
+    padding: 12px 25px;
+    background: linear-gradient(to right, #ff6f61, #e53935);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fancy-button:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(to right, #e53935, #ff6f61);
+  }
+  
+  /* Galeri */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .gallery img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Form Harapan */
+  textarea {
+    width: 90%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .music-player {
+    margin-top: 20px;
+  }
+  
+  .music-player .fancy-button {
+    padding: 12px 30px;
+    font-size: 1.2em;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .music-player .fancy-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .section {
+    margin-top: 40px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  /* Animasi */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
